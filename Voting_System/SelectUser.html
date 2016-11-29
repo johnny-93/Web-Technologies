@@ -1,0 +1,28 @@
+<?php
+session_start();
+session_destroy();
+
+header(Location:SelectUser.html);
+?>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Select user </title>
+	<link   rel="icon" type="image/ico" href="1.ico"/>
+	<link rel="stylesheet" type="text/css" href="Vote.css"/>
+</head>
+<body id="grad">
+<h1 id="h1">SELECT THE USER</h1>
+<hr >		  
+<form action="VoterLogin.php" method="POST">
+	<div id="d1" >
+	
+		<button type="submit" style="height: 50px; width: 150px">Voter</button>
+		<button type="submit" style="height: 50px; width: 150px" formaction="InspectorLogin.php">Inspector</button>
+	</div>
+</form>
+</body>
+</html>

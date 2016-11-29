@@ -1,0 +1,51 @@
+header{
+            text-align: center;
+            text-decoration: underline;
+            color: black;
+
+                    
+        }
+body.{
+	  
+	  background-color: lightblue;
+}
+a:hover{
+            background-color: black;
+            color: red;
+        }
+#login{
+	
+	
+	margin: 100px 0px 0px 450px;
+}
+ #v2{
+     background: linear-gradient(to right, black , white); /* Standard syntax */
+}
+#v3{
+     background: linear-gradient(to right, yellow , red); 
+}
+#c2{
+     background: linear-gradient(to right, #ff6600 , #ffcccc); 
+}
+#z2{
+     background: linear-gradient(to right, #000000 , #00ffff); 
+}
+
+#grad {
+  
+  background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+#i2{
+     background: linear-gradient(to right, #000066 , #99ccff); 
+}
+#d1{
+            
+            
+            text-align: center;
+            
+        }
+#h1{
+            text-align: center;
+            text-decoration:underline;
+}
+
